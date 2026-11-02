@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据与产物（体积大 / 可能涉密，不入库）
+data/
+models/
+runs/
+figures/
+vasp_jobs*/
+aimd_templates/
+*.json.lock
+*.lmdb/
+
+# 计算输出
+OUTCAR
+OSZICAR
+CHGCAR
+WAVECAR
+vasprun.xml
+XDATCAR
+CONTCAR
+POTCAR
+
+# API key / 凭据 —— 永不入库
+*api_key*
+*_key.txt
+.env
+
+# 临时
+_test*
+*.log
+.DS_Store

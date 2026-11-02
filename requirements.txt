@@ -1,0 +1,13 @@
+# 依赖：ALIGNN 及其科学计算栈
+# 注意 DGL 必须锁 1.1.2，2.x 会让 ALIGNN 直接崩
+
+alignn
+jarvis-tools
+dgl==1.1.2
+torch>=2.0
+pymatgen>=2023.1
+numpy
+pandas
+scikit-learn
+matplotlib
+tqdm
